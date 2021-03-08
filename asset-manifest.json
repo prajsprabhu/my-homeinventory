@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/my-homeinventory/static/js/main.bbc26171.chunk.js",
+    "main.js.map": "/my-homeinventory/static/js/main.bbc26171.chunk.js.map",
+    "runtime-main.js": "/my-homeinventory/static/js/runtime-main.e166a7bc.js",
+    "runtime-main.js.map": "/my-homeinventory/static/js/runtime-main.e166a7bc.js.map",
+    "static/js/2.c01ae8ef.chunk.js": "/my-homeinventory/static/js/2.c01ae8ef.chunk.js",
+    "static/js/2.c01ae8ef.chunk.js.map": "/my-homeinventory/static/js/2.c01ae8ef.chunk.js.map",
+    "static/js/3.6d33303d.chunk.js": "/my-homeinventory/static/js/3.6d33303d.chunk.js",
+    "static/js/3.6d33303d.chunk.js.map": "/my-homeinventory/static/js/3.6d33303d.chunk.js.map",
+    "index.html": "/my-homeinventory/index.html",
+    "static/js/2.c01ae8ef.chunk.js.LICENSE.txt": "/my-homeinventory/static/js/2.c01ae8ef.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e166a7bc.js",
+    "static/js/2.c01ae8ef.chunk.js",
+    "static/js/main.bbc26171.chunk.js"
+  ]
+}
