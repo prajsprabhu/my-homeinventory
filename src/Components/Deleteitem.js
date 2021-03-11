@@ -1,25 +1,34 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
+import TextField from '@material-ui/core/TextField';
 
 const useStyles = makeStyles((theme) => ({
-  root: {
+  container: {
     display: 'flex',
-    '& > *': {
-      margin: theme.spacing(1),
-      width: theme.spacing(16),
-      height: theme.spacing(16),
-    },
+    flexWrap: 'wrap',
+  },
+  textField: {
+    marginLeft: theme.spacing(1),
+    marginRight: theme.spacing(1),
+    width: 200,
   },
 }));
 
-export default function Variants() {
+export default function DatePickers() {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
-      <Paper variant="outlined" />
-      <Paper variant="outlined" square />
-    </div>
+    <form className={classes.container} noValidate>
+      <TextField
+        id="date"
+        label="Item Date"
+        type="date"
+        defaultValue="2021-05-24"
+        className={classes.textField}
+        InputLabelProps={{
+          shrink: true,
+        }}
+      />
+    </form>
   );
 }
